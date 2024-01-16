@@ -1,0 +1,118 @@
+html, body {
+    font-family: "Lato", Roboto,-apple-system,Helvetica Neue,Helvetica,Arial,sans-serif !important;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.q-dialog__inner>div {
+    min-width: 360px;
+}
+
+/*
+** ШРИФТЫ
+*/
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../../public/assets/fonts/Lato-Black.ttf");
+    font-weight: 900;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../../public/assets/fonts/Lato-Bold.ttf");
+    font-weight: 700;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../../public/assets/fonts/Lato-Italic.ttf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../../public/assets/fonts/Lato-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Lato';
+    src: url("../../public/assets/fonts/Lato-Light.ttf");
+    font-weight: 300;
+}
+
+/*
+** ТИПОГРАФИКА
+*/
+h1 {
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    letter-spacing: 0;
+
+}
+
+h4 {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    letter-spacing: 0;
+}
+
+h5 {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+h6 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.text-body-1 {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0;
+}
+
+.text-body-2 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+
+.text-body-3 {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0;
+}
+

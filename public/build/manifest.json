@@ -1,0 +1,27 @@
+{
+  "_vendor-bf6f8f45.js": {
+    "file": "assets/vendor-bf6f8f45.js"
+  },
+  "public/assets/fonts/Inter-VariableFont_slnt,wght.ttf": {
+    "file": "assets/Inter-VariableFont_slnt_wght-4a772478.ttf",
+    "src": "public/assets/fonts/Inter-VariableFont_slnt,wght.ttf"
+  },
+  "resources/js/main.css": {
+    "file": "assets/main-c616c18a.css",
+    "src": "resources/js/main.css"
+  },
+  "resources/js/main.js": {
+    "assets": [
+      "assets/Inter-VariableFont_slnt_wght-4a772478.ttf"
+    ],
+    "css": [
+      "assets/main-c616c18a.css"
+    ],
+    "file": "assets/main-d82f7b9b.js",
+    "imports": [
+      "_vendor-bf6f8f45.js"
+    ],
+    "isEntry": true,
+    "src": "resources/js/main.js"
+  }
+}
