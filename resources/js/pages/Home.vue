@@ -6,7 +6,7 @@
                 <div class="flex items-center" style="height: 72px">
                     <div class="text-body-1" style="margin: 24px 44px 24px auto">
                         <template v-if="USER_STORE.user">
-                            <router-link to="/account">Личный кабинет</router-link>
+                            <router-link to="/account/albums">Личный кабинет</router-link>
                         </template>
                         <template v-else>
                             <a @click="USER_STORE.show_signin_dialog = true" class="cursor-pointer">Войти в личный кабинет</a>
@@ -23,9 +23,9 @@
                             Конструктор дополненной реальности для тех,<br>кто идёт в ногу со временем
                         </div>
                     </div>
-                    <div class="action-button q-mx-auto text-center" style="margin-top: 120px">
+                    <router-link to="/account/albums" class="action-button q-mx-auto text-center" style="margin-top: 120px">
                         Попробовать
-                    </div>
+                    </router-link>
                 </div>
 
                 <div class="text-center q-mb-sm">
@@ -82,9 +82,9 @@
                             </div>
                         </div>
                     </div>
-                    <div class="action-button q-mx-auto text-center" style="margin-top: 120px">
+                    <router-link to="/account/albums" class="action-button q-mx-auto text-center" style="margin-top: 120px">
                         Создать свою реальность
-                    </div>
+                    </router-link>
                 </div>
             </div>
         </div>
@@ -290,6 +290,15 @@ export default {
 </script>
 
 <style scoped>
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 ::-webkit-scrollbar {
     display: none;
 }
@@ -371,6 +380,7 @@ export default {
 
 .action-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.4);
+    text-decoration: none;
 }
 
 .stepper {

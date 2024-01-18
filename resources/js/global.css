@@ -2,15 +2,6 @@ html, body {
     font-family: "Lato", Roboto,-apple-system,Helvetica Neue,Helvetica,Arial,sans-serif !important;
 }
 
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .q-dialog__inner>div {
     min-width: 360px;
 }
@@ -114,5 +105,9 @@ h6 {
     font-weight: 700;
     line-height: 20px;
     letter-spacing: 0;
+}
+
+.text-weight-medium {
+    font-weight: 500;
 }
 

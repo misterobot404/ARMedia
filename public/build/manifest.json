@@ -1,25 +1,45 @@
 {
-  "_vendor-bf6f8f45.js": {
-    "file": "assets/vendor-bf6f8f45.js"
+  "_vendor-11e1dddc.js": {
+    "file": "assets/vendor-11e1dddc.js"
   },
-  "public/assets/fonts/Inter-VariableFont_slnt,wght.ttf": {
-    "file": "assets/Inter-VariableFont_slnt_wght-4a772478.ttf",
-    "src": "public/assets/fonts/Inter-VariableFont_slnt,wght.ttf"
+  "public/assets/fonts/Lato-Black.ttf": {
+    "file": "assets/Lato-Black-abf64cfa.ttf",
+    "src": "public/assets/fonts/Lato-Black.ttf"
+  },
+  "public/assets/fonts/Lato-Bold.ttf": {
+    "file": "assets/Lato-Bold-d7f0b7f2.ttf",
+    "src": "public/assets/fonts/Lato-Bold.ttf"
+  },
+  "public/assets/fonts/Lato-Italic.ttf": {
+    "file": "assets/Lato-Italic-3be26bf6.ttf",
+    "src": "public/assets/fonts/Lato-Italic.ttf"
+  },
+  "public/assets/fonts/Lato-Light.ttf": {
+    "file": "assets/Lato-Light-fb5343c4.ttf",
+    "src": "public/assets/fonts/Lato-Light.ttf"
+  },
+  "public/assets/fonts/Lato-Regular.ttf": {
+    "file": "assets/Lato-Regular-e82542ae.ttf",
+    "src": "public/assets/fonts/Lato-Regular.ttf"
   },
   "resources/js/main.css": {
-    "file": "assets/main-c616c18a.css",
+    "file": "assets/main-61f8eef6.css",
     "src": "resources/js/main.css"
   },
   "resources/js/main.js": {
     "assets": [
-      "assets/Inter-VariableFont_slnt_wght-4a772478.ttf"
+      "assets/Lato-Black-abf64cfa.ttf",
+      "assets/Lato-Bold-d7f0b7f2.ttf",
+      "assets/Lato-Italic-3be26bf6.ttf",
+      "assets/Lato-Regular-e82542ae.ttf",
+      "assets/Lato-Light-fb5343c4.ttf"
     ],
     "css": [
-      "assets/main-c616c18a.css"
+      "assets/main-61f8eef6.css"
     ],
-    "file": "assets/main-d82f7b9b.js",
+    "file": "assets/main-dc773b30.js",
     "imports": [
-      "_vendor-bf6f8f45.js"
+      "_vendor-11e1dddc.js"
     ],
     "isEntry": true,
     "src": "resources/js/main.js"

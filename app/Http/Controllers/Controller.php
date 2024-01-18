@@ -7,7 +7,7 @@ use Illuminate\Foundation\Validation\ValidatesRequests;
 use Illuminate\Routing\Controller as BaseController;
 
 use App\Models\Place;
-use App\Models\Category;
+use App\Models\Album;
 use App\Models\Review;
 use App\Models\Deal;
 use App\Models\Message;
@@ -25,7 +25,7 @@ class Controller extends BaseController
     }
 
     public function categories() {
-        dd(Category::all());
+        dd(Album::all());
     }
 
     public function deals() {
